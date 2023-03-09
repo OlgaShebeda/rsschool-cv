@@ -45,4 +45,6 @@ museum, portfolio
 
 Master, Brest State University, Brest
 
-A2+
+* English: A2+
+* Russian: native
+* Belarussian: B2
