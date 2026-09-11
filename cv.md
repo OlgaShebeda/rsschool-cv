@@ -1,5 +1,5 @@
 
-<img src="20240907_164439.jpg" width="250" height="300">
+<img src="./20240907_164439.jpg" width="250" height="300">
 
 # Olga Kucheiko
 ---
