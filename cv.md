@@ -12,12 +12,13 @@ tg: @ole4ka_olka
 ---
 
 I am a passionnate and fast learner willing to start a career in IT. I have experience teaching information technology
-at Brest college for about a two years. The technology stack included PHP, Node.js, UX/UI. 
+at Brest college for about a two years. The technology stack included PHP, Node.js, UX/UI, html/css and JS. 
 Moreover, I have good written and
 verbal communication skills. I have the ability to communicate effectively in both independent and team environments.
 
 ---
 
+* html
 * CSS
 * SCSS/SASS
 * JavaScripte
@@ -50,7 +51,6 @@ for (let i=0; i<numbers.length;i++){ if (i<3) num1[i]=numbers[i]; if (i<6 && i>2
    thes is page,
    coursework
    
-   [shelter](https://rolling-scopes-school.github.io/olgashebeda-JSFE2022Q1/shelter/shelter/index.html)
 
    Master, Brest State University, Brest
 
@@ -59,3 +59,4 @@ for (let i=0; i<numbers.length;i++){ if (i<3) num1[i]=numbers[i]; if (i<6 && i>2
    * English: A2+
    * Russian: native
    * Belarussian: B2
+   * Spanish: A1
