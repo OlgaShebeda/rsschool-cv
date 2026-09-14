@@ -12,9 +12,9 @@
          <ul class="list-blok">
             <li class="list-item"><a href="#about">About</a></li>
             <li class="list-item"><a href="#skills">Skills</a></li>
-            <li class="list-item"><a href="#"></a></li>
-            <li class="list-item"><a href="#"></a></li>
-            <li class="list-item"><a href="#"></a></li>
+            <li class="list-item"><a href="#code">Code example</a></li>
+            <li class="list-item"><a href="#education">Education</a></li>
+            <li class="list-item"><a href="#language">Languages</a></li>
          </ul>
       </nav>
    </header>
@@ -49,13 +49,49 @@
                <li>Git/GitHub</li>
             </ul>
          </div>
+         <div class="code-block">
+            <h2 id="code">Code Example</h2>
+            <pre>
+               <code>
+                  function createPhoneNumber(numbers){
+                  var num1 = [];
+                  var num2 = [];
+                  var num3 = [];
+                  for (let i=0; i &lt; numbers.length;i++){ if (i &lt; 3) num1[i]=numbers[i]; if (i &lt; 6 && i &gt; 2)
+                     num2[i]=numbers[i];
+                     if (i&gt;5 )
+                     num3[i]=numbers[i];
+                     }
+                     num1= num1.join('');
+                     num3 = num3.join('');
+                     num2= num2.join('');
+                     const str = '('+ num1 + ') '+ num2 + '-'+ num3;
+                     return str;
+                     }
+               </code>
+            </pre>
+         </div>
+         <div class="edu-block">
+            <h2 id="education">Education</h2>
+            <p class="text">Master, Brest State University, Brest</p>
+            <p class="text">This page is an example of my educational project. </p>
+            <p class="text">Course RS Scoole, 2022</p>
+         </div>
          <div class="leng-block">
-            
+            <h2 id="language">Languages</h2>
+            <ul class="text-list">
+               <li>English: A2+</li>
+               <li>Russian: native</li>
+               <li>Belarussian: B2</li>
+               <li>Spanish: A1</li>
+            </ul>
          </div>
       </div>
    </main>
    <footer class="footer-block">
-
+      <a href="https://rs.school/courses/javascript" target="_blank" rel="noopener noreferrer"><img src="./logo-rsschool3.png" alt=""></a>
+      <p class="year">2026 &copy;</p>
+      <a href="https://github.com/OlgaShebeda" target="_blank" rel="noopener noreferrer">GitHub</a>
    </footer>
 </body>
 </html>
