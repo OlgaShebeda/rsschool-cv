@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>CV</title>
+</head>
+<body>
+   <header class="header-block">
+      <nav class="nav-block">
+         <ul class="list-blok">
+            <li class="list-item"><a href="#about">About</a></li>
+            <li class="list-item"><a href="#skills">Skills</a></li>
+            <li class="list-item"><a href="#code">Code example</a></li>
+            <li class="list-item"><a href="#education">Education</a></li>
+            <li class="list-item"><a href="#language">Languages</a></li>
+         </ul>
+      </nav>
+   </header>
+   <main class="main-block">
+      <div class="contact-contaner">
+         <img src="./20240907_164439.jpg" alt="" class="foto">
+         <a href="tel:+375292040532" class="text-contact">+375 (29) 204-05-32</a>
+         <a href="mailto:kucheikoolga@gmail.com" class="text-contact">Kucheikoolga@gmail.com</a>
+         <a href="https://t.me/ole4ka_olka" target="_blank" class="text-contact" rel="noopener">Telegram</a>
+         <a href="https://github.com/OlgaShebeda" class="text-contact">GitHub</a>
+      </div>
+      <div class="inf-contaner">
+         <h1 class="name">Olga Kucheiko</h1>
+         <div class="about-section">
+            <h2 id="about">About me</h2>
+            <p class="text">I am a passionnate and fast learner willing to start a career in IT. I have experience teaching information technology
+            at Brest college for about a two years. The technology stack included PHP, Node.js, UX/UI, html/css and JS.
+            Moreover, I have good written and
+            verbal communication skills. I have the ability to communicate effectively in both independent and team environments.</p>
+         </div>
+         <div class="skils-block">
+            <h2 id="skills">Skills</h2>
+            <ul class="text-list">
+               <li>html</li>
+               <li>CSS</li>
+               <li>SCSS/SASS</li>
+               <li>JavaScripte</li>
+               <li>Node.js</li>
+               <li>UX/UI</li>
+               <li>MySQL</li>
+               <li>PHP</li>
+               <li>Git/GitHub</li>
+            </ul>
+         </div>
+         <div class="code-block">
+            <h2 id="code">Code Example</h2>
+            <pre>
+               <code>
+                  function createPhoneNumber(numbers){
+                  var num1 = [];
+                  var num2 = [];
+                  var num3 = [];
+                  for (let i=0; i &lt; numbers.length;i++){ if (i &lt; 3) num1[i]=numbers[i]; if (i &lt; 6 && i &gt; 2)
+                     num2[i]=numbers[i];
+                     if (i&gt;5 )
+                     num3[i]=numbers[i];
+                     }
+                     num1= num1.join('');
+                     num3 = num3.join('');
+                     num2= num2.join('');
+                     const str = '('+ num1 + ') '+ num2 + '-'+ num3;
+                     return str;
+                     }
+               </code>
+            </pre>
+         </div>
+         <div class="edu-block">
+            <h2 id="education">Education</h2>
+            <p class="text">Master, Brest State University, Brest</p>
+            <p class="text">This page is an example of my educational project. </p>
+            <p class="text">Course RS Scoole, 2022</p>
+         </div>
+         <div class="leng-block">
+            <h2 id="language">Languages</h2>
+            <ul class="text-list">
+               <li>English: A2+</li>
+               <li>Russian: native</li>
+               <li>Belarussian: B2</li>
+               <li>Spanish: A1</li>
+            </ul>
+         </div>
+      </div>
+   </main>
+   <footer class="footer-block">
+      <a href="https://rs.school/courses/javascript" target="_blank" rel="noopener noreferrer"><img src="./logo-rsschool3.png" alt=""></a>
+      <p class="year">2026 &copy;</p>
+      <a href="https://github.com/OlgaShebeda" target="_blank" rel="noopener noreferrer">GitHub</a>
+   </footer>
+</body>
+</html>
